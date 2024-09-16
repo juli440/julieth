@@ -24,7 +24,7 @@ a:hover {
 }
 
 body {
-
+    width: 100%;
     background-color: black;
     font-family: "Mochiy Pop One", sans-serif;
 }
@@ -144,25 +144,77 @@ body {
     display: none;
 }
 
+h1 {
+    color: white;
+}
+p{
+    color: white;}
+
 header-content {
     margin-top: 200px;
     padding-bottom: 50px;
 }
 
+
+
 .slider {
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    padding: 20px;
+    padding-left: 5%;
+    padding-top: 10%;
 }
+.slider2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-left: 5%;
+    padding-top: 10%;
+}
+.slider3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding-left: 5%;
+    padding-top: 10%;
+}
+
 
 .slider-txt {
     width: 50%; 
-    margin-right: 20px;
+    
     color: white; 
 }
 
+.slider2-txt {
+    width: 50%; 
+    
+    color: white; 
+}
+
+.slider3-txt {
+    width: 50%; 
+    
+    color: white; 
+}
+
+
 .slider-txt h1 {
+    font-size: 60px; 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.slider2-txt h1 {
+    font-size: 60px; 
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.slider3-txt h1 {
     font-size: 60px; 
     color: white;
     text-transform: uppercase;
@@ -174,16 +226,51 @@ header-content {
     color: #ffffff;
 }
 
-.slider-img {
-    width: 50%; 
-    text-align: right; /
+
+.slider2-txt p {
+    font-size: 18px;
+    color: #ffffff;
 }
 
-.slider-img img {
-    width: 100%; 
-    max-width: 500px; 
+.slider3-txt p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+
+.slider1-img { 
+    width: 50%;
+    margin-top: -10%; 
+}
+
+.slider1-img img {
+    margin-top: 10ch;
+    max-width: 90%;
     height: auto;
 }
+
+.slider2-img { 
+    width: 200%;
+    margin-top: -10%; 
+}
+
+.slider2-img img {
+    margin-top: 10ch;
+    max-width: 90%;
+    height: auto;
+}
+
+.slider3-img { 
+    width: 150%;
+    margin-top: -10%; 
+}
+
+.slider3-img img {
+    margin-top: 10ch;
+    max-width: 90%;
+    height: auto;
+}
+
 
 
 .botones {
@@ -217,8 +304,9 @@ header-content {
 
 .products {
     background: radial-gradient(circle, #727272,#000000);
-    border-top-left-radius: 150px;
-    border-top-right-radius: 150px;
+    margin-top: 10%;
+    border-top-left-radius: 170px;
+    border-top-right-radius: 170px;
 }
 
 .tabs {
